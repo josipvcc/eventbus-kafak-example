@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03675ABB-32C3-479E-A1EE-59B7674FF56A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Lab.Kafka", "src\EventBus.Lab.Kafka\EventBus.Lab.Kafka.csproj", "{A7B44A95-4DA4-496C-BA54-B7DAA7BC714F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Lab.Kafka", "src\EventBus.Lab.Kafka\EventBus.Lab.Kafka.csproj", "{A7B44A95-4DA4-496C-BA54-B7DAA7BC714F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Lab.KafkaExample", "src\EventBus.Lab.KafkaExample\EventBus.Lab.KafkaExample.csproj", "{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Lab.KafkaExample", "src\EventBus.Lab.KafkaExample\EventBus.Lab.KafkaExample.csproj", "{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Lab.KafkaExample45-old", "src\EventBus.Lab.KafkaExample45-old\EventBus.Lab.KafkaExample45-old.csproj", "{10434370-38EC-4356-8FC9-83CD1763911D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A7B44A95-4DA4-496C-BA54-B7DAA7BC714F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,9 +45,28 @@ Global
 		{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B}.Release|x64.Build.0 = Release|Any CPU
 		{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B}.Release|x86.ActiveCfg = Release|Any CPU
 		{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B}.Release|x86.Build.0 = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|x64.Build.0 = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Debug|x86.Build.0 = Debug|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|x64.ActiveCfg = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|x64.Build.0 = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|x86.ActiveCfg = Release|Any CPU
+		{10434370-38EC-4356-8FC9-83CD1763911D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7B44A95-4DA4-496C-BA54-B7DAA7BC714F} = {03675ABB-32C3-479E-A1EE-59B7674FF56A}
 		{3D8A887F-2AB2-4B5D-A84E-0E9B2857844B} = {03675ABB-32C3-479E-A1EE-59B7674FF56A}
+		{10434370-38EC-4356-8FC9-83CD1763911D} = {03675ABB-32C3-479E-A1EE-59B7674FF56A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9C45CE-8DE8-4F4C-A683-65C7283936EA}
 	EndGlobalSection
 EndGlobal
